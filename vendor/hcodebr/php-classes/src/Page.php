@@ -19,8 +19,8 @@ class Page{
 		$this->options = array_merge($this->defaults, $opts);
 
 		$config = array(
-			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."/ecommerce/views/",
-			"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/ecommerce/views-cache/",
+			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."/ecommerceHcode/views/",
+			"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/ecommerceHcode/views-cache/",
 			"debug"         => false
 		);
 
